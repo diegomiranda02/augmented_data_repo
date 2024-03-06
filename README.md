@@ -13,3 +13,6 @@ imbalanced-learn (imblearn)
 scikit-learn
 pandas
 numpy
+
+Execução
+python smote.py
