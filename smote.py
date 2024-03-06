@@ -56,7 +56,7 @@ print("Número de observações em y_resampled:", num_labels)
 # Convertendo os vetores TF-IDF de volta para texto
 X_resampled_text = tfidf_vectorizer.inverse_transform(X_resampled)
 
-# Convertendo os texto para uma lista de strings
+# Convertendo os textos para uma lista de strings
 X_resampled_text_list = [' '.join(doc) for doc in X_resampled_text]
 
 # Criando um dataframe com os dados rebalanceados
