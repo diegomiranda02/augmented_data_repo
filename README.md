@@ -8,11 +8,11 @@ O código fornecido demonstra como equilibrar um conjunto de dados de classifica
 
 Requisitos
 
-Python 3.x
-imbalanced-learn (imblearn)
-scikit-learn
-pandas
-numpy
+1 - Python 3.x
+2 - imbalanced-learn (imblearn)
+3- scikit-learn
+4 - pandas
+5 - numpy
 
 Execução
 python smote.py
