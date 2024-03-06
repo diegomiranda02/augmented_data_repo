@@ -41,8 +41,6 @@ print("Número de observações em y (Antes de aplicar SMOTE):", len(y))
 tfidf_vectorizer = TfidfVectorizer()
 X_tfidf = tfidf_vectorizer.fit_transform(X)
 
-#sampling_strategy = {0: 127, 1: 127, 2: 127}
-
 # Aplicando SMOTE para gerar mais dados (oversampling) com a estratégia de amostragem especificada
 # A estratégia de amostragem é gerar sintenticamente observações até chegar à quantidade de 127 para o três labels (0, 1 e 2)
 smote = SMOTE(sampling_strategy = {0: 127, 1: 127, 2: 127})
